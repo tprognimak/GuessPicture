@@ -1,0 +1,35 @@
+﻿img{
+    padding:5px;
+    display:inline;
+}
+
+.picture,
+.backstop {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;  
+}
+
+.picture{
+    z-index: 1; 
+}
+
+.backstop{ 
+      z-index: 10; 
+}
+
+.img-container {
+  width: 150px;
+  height: 150px;
+  display:inline;
+  position:relative;
+}
+
+.row{
+    margin-left:20%;
+    margin-top:1%;
+}
+
+
